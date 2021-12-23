@@ -8,7 +8,7 @@ const medicationsRoute = require("./Routes/v1/medications");
 const logsRoute = require("./Routes/v1/logs");
 const prescriptionsRoute = require("./Routes/v1/prescriptions");
 
-const PORT = process.env.SERVER_PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
 const dbConfig = require("./dbConfig");
 
